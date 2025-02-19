@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import graphic from '../../assets/experience-graphic-svg';
+import graphic from '../../assets/experience-graphic.svg'
 
 const Section = styled.section`
   padding: 4rem 2rem;
