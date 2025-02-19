@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import GlobalStyles from './styles/GlobalStyles';
+import Description from './components/Description/Description';
+// import Experience from './components/Experience/Experience';
+// import Conferences from './components/Conferences/Conferences';
+// import Communities from './components/Communities/Communities';
+// import Favorites from './components/Favorites/Favorites';
+// import ContactForm from './components/ContactForm/ContactForm';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <Description />
+      {/* <Experience />
+      <Conferences />
+      <Communities />
+      <Favorites />
+      <ContactForm /> */}
+    </>
   );
-}
+};
 
 export default App;
+
