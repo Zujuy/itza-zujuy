@@ -1,9 +1,9 @@
 // src/components/Conferences/Conferences.jsx
 import React from 'react';
 import styled from 'styled-components';
-import conf1 from '../../assets/images/conf1.jpg';
-import conf2 from '../../assets/images/conf2.jpg';
-import conf3 from '../../assets/images/conf3.jpg';
+import conf1 from '../../assets/conf1.jpg';
+import conf2 from '../../assets/conf2.jpg';
+import conf3 from '../../assets/conf3.jpg';
 
 const Section = styled.section`
   padding: 4rem 2rem;

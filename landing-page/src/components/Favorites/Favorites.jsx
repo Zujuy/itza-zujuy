@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaGuitar, FaBasketballBall, FaBook } from 'react-icons/fa';
-import { GiClimbing, GiDancing } from 'react-icons/gi';
+import { GiMountainClimbing, GiBallerinaShoes } from 'react-icons/gi';
 import { MdMusicNote } from 'react-icons/md';
 
 const Section = styled.section`
@@ -51,9 +51,9 @@ const Description = styled.p`
 
 const Favorites = () => {
   const activities = [
-    { name: 'Climbing', icon: <GiClimbing /> },
+    { name: 'Climbing', icon: <GiMountainClimbing /> },
     { name: 'Conciertos', icon: <MdMusicNote /> },
-    { name: 'Poledance', icon: <GiDancing /> },
+    { name: 'Poledance', icon: <GiBallerinaShoes /> },
     { name: 'Basketball', icon: <FaBasketballBall /> },
     { name: 'Guitarra', icon: <FaGuitar /> },
     { name: 'Lectura', icon: <FaBook /> },

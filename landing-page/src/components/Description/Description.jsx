@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import graphic from '../../assets/experience-graphic.svg'
+import graphic from '../../assets/experience-graphic.svg';
 
 const Section = styled.section`
   padding: 4rem 2rem;
@@ -29,28 +29,16 @@ const Graphic = styled(motion.img)`
 `;
 
 const Description = () => {
+  console.log('Renderizando Description sin motion');
   return (
     <Section id="description">
-      <Title
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-      >
-        Bienvenido a Mi Mundo Digital
-      </Title>
-      <Subtitle
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.5 }}
-      >
+      <Title>Bienvenido a Mi Mundo Digital</Title>
+      <Subtitle>
         Combinando tecnología, diseño y creatividad para transformar ideas en realidad.
       </Subtitle>
       <Graphic
         src={graphic}
         alt="Representación de mi experiencia"
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
       />
     </Section>
   );

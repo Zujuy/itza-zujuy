@@ -1,4 +1,4 @@
-// src/components/Experience/Experience.jsx
+
 import React from 'react';
 import styled from 'styled-components';
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaGithub } from 'react-icons/fa';
