@@ -1,6 +1,9 @@
 // src/App.js
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
+import theme from './styles/theme';
+
 import Description from './components/Description/Description';
 import Experience from './components/Experience/Experience';
 import Conferences from './components/Conferences/Conferences';
@@ -10,7 +13,7 @@ import ContactForm from './components/ContactForm/ContactForm';
 
 const App = () => {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Description />
       <Experience />
@@ -18,7 +21,7 @@ const App = () => {
       <Communities />
       <Favorites />
       <ContactForm />
-    </>
+    </ThemeProvider>
   );
 };
 

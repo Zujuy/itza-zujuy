@@ -1,12 +1,13 @@
 // src/components/Communities/Communities.jsx
 import React from 'react';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 import womenTechmakersLogo from '../../assets/iamremarkable_logo.jpeg';
 import iamRemarkableLogo from '../../assets/techfem.png';
 import technolatinasLogo from '../../assets/technolatinas.jpeg';
 import techfemLogo from '../../assets/women-techmakers.jpeg';
 
-const Section = styled.section`
+const Section = styled(motion.section)`
   padding: 4rem 2rem;
   background: #fff;
   text-align: center;
@@ -21,15 +22,12 @@ const Container = styled.div`
   margin: 0 auto;
 `;
 
-const CommunityCard = styled.div`
+const CommunityCard = styled(motion.div)`
   background: #f1f1f1;
   padding: 1rem 2rem;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0px 8px 12px rgba(0,0,0,0.15);
@@ -43,7 +41,7 @@ const Logo = styled.img`
 
 const CommunityName = styled.p`
   font-size: 1rem;
-  color: #333;
+  color: ${props => props.theme.primaryColor};
 `;
 
 const Communities = () => {
@@ -54,7 +52,12 @@ const Communities = () => {
     { name: 'TechFEM', logo: techfemLogo },
   ];
   return (
-    <Section id="communities">
+    <Section
+      id="communities"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
       <h2>Comunidades</h2>
       <Container>
         {communities.map((community, index) => (

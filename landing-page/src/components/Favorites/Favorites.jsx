@@ -1,13 +1,14 @@
 // src/components/Favorites/Favorites.jsx
 import React from 'react';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 import { FaGuitar, FaBasketballBall, FaBook } from 'react-icons/fa';
 import { GiMountainClimbing, GiBallerinaShoes } from 'react-icons/gi';
 import { MdMusicNote } from 'react-icons/md';
 
-const Section = styled.section`
+const Section = styled(motion.section)`
   padding: 4rem 2rem;
-  background: #f7f7f7;
+  background: #f9f9f9;
   text-align: center;
 `;
 
@@ -19,7 +20,7 @@ const CardsGrid = styled.div`
   margin: 0 auto;
 `;
 
-const Card = styled.div`
+const Card = styled(motion.div)`
   background: #fff;
   padding: 1.5rem;
   border-radius: 8px;
@@ -32,21 +33,21 @@ const Card = styled.div`
 
 const IconWrapper = styled.div`
   font-size: 2.5rem;
-  color: #007acc;
+  color: ${props => props.theme.accentColor};
   margin-bottom: 0.5rem;
 `;
 
 const ActivityName = styled.h3`
   font-size: 1.1rem;
   margin: 0;
-  color: #333;
+  color: ${props => props.theme.primaryColor};
 `;
 
 const Description = styled.p`
   max-width: 800px;
   margin: 2rem auto 0;
   font-size: 1rem;
-  color: #555;
+  color: ${props => props.theme.secondaryColor};
 `;
 
 const Favorites = () => {
@@ -60,7 +61,12 @@ const Favorites = () => {
   ];
 
   return (
-    <Section id="favorites">
+    <Section
+      id="favorites"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
       <h2>Mis Pasiones y Más</h2>
       <CardsGrid>
         {activities.map((activity, index) => (
@@ -71,7 +77,7 @@ const Favorites = () => {
         ))}
       </CardsGrid>
       <Description>
-        Además, soy creadora de contenido en <strong>TikTok</strong>, compartiendo mis experiencias, tips y momentos inspiradores.
+        Soy creadora de contenido en <strong>TikTok</strong>, compartiendo experiencias y consejos.
       </Description>
     </Section>
   );

@@ -1,13 +1,14 @@
 // src/components/Conferences/Conferences.jsx
 import React from 'react';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 import conf1 from '../../assets/conf1.jpg';
 import conf2 from '../../assets/conf2.jpg';
 import conf3 from '../../assets/conf3.jpg';
 
-const Section = styled.section`
+const Section = styled(motion.section)`
   padding: 4rem 2rem;
-  background: #f7f7f7;
+  background: #f9f9f9;
   text-align: center;
 `;
 
@@ -19,10 +20,9 @@ const Gallery = styled.div`
   margin: 0 auto;
 `;
 
-const ImageWrapper = styled.div`
+const ImageWrapper = styled(motion.div)`
   overflow: hidden;
   border-radius: 8px;
-  position: relative;
   cursor: pointer;
   &:hover img {
     transform: scale(1.05);
@@ -33,13 +33,17 @@ const Image = styled.img`
   width: 100%;
   height: auto;
   transition: transform 0.3s ease;
-  display: block;
 `;
 
 const Conferences = () => {
   const images = [conf1, conf2, conf3];
   return (
-    <Section id="conferences">
+    <Section
+      id="conferences"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
       <h2>Conferencias y Eventos</h2>
       <Gallery>
         {images.map((src, index) => (
