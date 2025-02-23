@@ -4,7 +4,7 @@ Welcome to the **Itza Zujuy** landing page 🎨✨.
 This website is built with **React** and **Material UI**, designed to showcase **a little about me**.
 
 ## 📸 Preview
-![Landing Page Screenshot](https://drive.google.com/file/d/1w7Jvv_Ql-c2lUi3M-1cOFB_VfCJg8CEH/view?usp=sharing)
+![Landing Page Screenshot](https://drive.google.com/thumbnail?id=1w7Jvv_Ql-c2lUi3M-1cOFB_VfCJg8CEH)
 
 👉 [View Live Site](https://itzazujuy.site/)
 
