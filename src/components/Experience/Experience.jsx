@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiTypescript, SiPhp, SiNodedotjs, SiExpress, SiDrupal } from 'react-icons/si';
@@ -126,6 +127,7 @@ const icons = [
 ];
 
 const Experience = () => {
+  const { t } = useTranslation();
   return (
     <Section
       id="experience"
@@ -134,10 +136,9 @@ const Experience = () => {
       transition={{ duration: 0.8 }}
     >
       <Content>
-        <Title>Experiencia Tecnológica</Title>
+        <Title>{t('experience.title')}</Title>
         <Text>
-          Mi camino en tecnología combina desarrollo web y UX/UI. Me especializo en JavaScript y TypeScript, creando aplicaciones dinámicas con React.js, estilizadas con CSS-in-JS para una interfaz fluida y accesible.
-          En el backend, manejo Node.js con Express, integrando bases de datos MongoDB y otras soluciones NoSQL, asegurando escalabilidad y eficiencia.
+          d{t('experience.text')}
         </Text>
         
         {/* Botón de LinkedIn */}
