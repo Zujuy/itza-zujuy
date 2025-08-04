@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from 'react-i18next';
 
 const Section = styled.section`
   padding: 4rem 2rem;
@@ -131,6 +132,7 @@ const StatusMessage = styled.p`
 `;
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState('');
@@ -209,13 +211,13 @@ const ContactForm = () => {
 
   return (
     <Section id="contact">
-      <Title>Contacto</Title>
+      <Title>{t('form.title')}</Title>
       <FormContainer>
         <Form onSubmit={handleSubmit}>
           {['name', 'email', 'subject', 'message'].map((field, index) => (
             <InputGroup key={index}>
               <Label htmlFor={field} error={errors[field]} active={formData[field]}>
-                {field === 'name' ? 'Nombre' : field === 'email' ? 'Correo Electrónico' : field === 'subject' ? 'Asunto' : 'Mensaje'}
+                {t(`form.${field === 'email' ? 'mail' : field}`)}
               </Label>
               {field === 'message' ? (
                 <TextArea id={field} name={field} value={formData[field]} onChange={handleChange} error={errors[field]} />
@@ -226,7 +228,7 @@ const ContactForm = () => {
             </InputGroup>
           ))}
           <Button type="submit" disabled={loading || !isFormValid()}>
-            {loading ? 'Enviando...' : 'Enviar'}
+            {loading ? t('form.sending') || 'Enviando...' : t('form.cta')}
           </Button>
         </Form>
         {status && <StatusMessage>{status}</StatusMessage>}
