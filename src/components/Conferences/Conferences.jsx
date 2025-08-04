@@ -68,7 +68,7 @@ const FilmStrip = styled(motion.div)`
   gap: 1.5rem;
   min-width: 300%;
   will-change: transform;
-  animation: ${props => (props.paused ? "none" : "scrollLoop 40s linear infinite")};
+  animation: ${props => (props.$paused ? "none" : "scrollLoop 40s linear infinite")};
 
   @keyframes scrollLoop {
     0% { transform: translateX(0%); }
@@ -76,7 +76,7 @@ const FilmStrip = styled(motion.div)`
   }
 
   @media (max-width: 768px) {
-    animation: ${props => (props.paused ? "none" : "scrollLoop-fast 12s linear infinite")};
+    animation: ${props => (props.$paused ? "none" : "scrollLoop-fast 12s linear infinite")};
   }
 
   @keyframes scrollLoop-fast {
@@ -164,15 +164,14 @@ const Conferences = () => {
     <Section id="conferences" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
       <Title>{t('conference.title')}</Title>
       <Text>
-      <p>{t('conference.text')}</p>
+      {t('conference.text')}</Text>
 
-      <p>A{t('conference.text1')}</p>
+      <Text>A{t('conference.text1')}</Text>
 
-      <p>{t('conference.text2')}</p>
-      </Text>
+      <Text>{t('conference.text2')}</Text>
 
       <GalleryWrapper>
-        <FilmStrip ref={filmStripRef} paused={paused}> {}
+        <FilmStrip ref={filmStripRef} $paused={paused}>
           {infiniteImages.map((image, index) => {
             const originalIndex = index % images.length;
 

@@ -133,13 +133,9 @@ const Favorites = () => {
           </IconWrapper>
         ))}
       </IconGrid>
-      <Text>
-        <p>{t('favorites.text')}</p>
-
-        <p>{t('favorites.text1')}</p>
-
-        <p>{t('favorites.text2')}</p>
-      </Text>
+      <Text>{t('favorites.text')}</Text>
+      <Text>{t('favorites.text1')}</Text>
+      <Text>{t('favorites.text2')}</Text>
       <TikTokLink href="https://www.tiktok.com/@itzazujuy" target="_blank" rel="noopener noreferrer">
         <FaTiktok /> {t('favorites.tiktok')}
       </TikTokLink>
