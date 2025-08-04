@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import './i18n';
 
 // Agrega un console.log para confirmar que se ejecuta
 console.log('Iniciando la aplicación...');
