@@ -118,15 +118,15 @@ const Communities = () => {
       transition={{ duration: 0.8 }}
     >
       <Content>
-        <Title>{t('title')}</Title>
+        <Title>{t('communities.title')}</Title>
         <Text>
-          {t('text')}
+          {t('communities.text')}
         </Text>
         <Text>
-          {t('text1')}
+          {t('communities.text1')}
         </Text>
         <Text>
-          {t('text2')}
+          {t('communities.text2')}
         </Text>
       </Content>
       <Container>

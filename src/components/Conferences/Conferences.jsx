@@ -162,13 +162,13 @@ const Conferences = () => {
 
   return (
     <Section id="conferences" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
-      <Title>{t('title')}</Title>
+      <Title>{t('conference.title')}</Title>
       <Text>
-      <p>{t('text')}</p>
+      <p>{t('conference.text')}</p>
 
-      <p>A{t('text1')}</p>
+      <p>A{t('conference.text1')}</p>
 
-      <p>{t('text2')}</p>
+      <p>{t('conference.text2')}</p>
       </Text>
 
       <GalleryWrapper>
