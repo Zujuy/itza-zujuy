@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import graphic from '../../assets/experience-graphic.png';
 
@@ -78,7 +79,7 @@ const LedLine = styled(motion.div)`
 `;
 
 const TypingTitle = () => {
-  const text = "Bienvenido a Mi Mundo Digital";
+  const text = "{t('description.title')}";
   const [displayText, setDisplayText] = useState("");
 
   useEffect(() => {
@@ -99,6 +100,7 @@ const TypingTitle = () => {
 };
 
 const Description = () => {
+  const { t } = useTranslation();
   return (
     <Section
       id="description"
@@ -108,20 +110,18 @@ const Description = () => {
     >
       <TypingTitle />
       <Subtitle>
-        Transformando ideas en experiencias digitales a través de tecnología y diseño.
+        {t('description.subtitle')}
       </Subtitle>
       <Graphic
         src={graphic}
-        alt="Representación de mi experiencia"
+        alt="{t('description.alt')}"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       />
       <Text>
-        ¡Hola! Soy Itza Zujuy, una entusiasta de la tecnología, la seguridad y la creatividad. 🚀 Me apasiona desarrollar experiencias digitales innovadoras y formar parte de comunidades que impulsan el crecimiento en tecnología. Siempre estoy explorando nuevas formas de aprender, compartir conocimiento y conectar con personas que buscan hacer la diferencia. ¡Bienvenid@ a mi espacio! 💜
+        {t('description.text')}
       </Text>
-
-      {/* Línea LED animada */}
       <LedLine />
     </Section>
   );
