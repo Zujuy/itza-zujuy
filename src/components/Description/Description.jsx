@@ -78,11 +78,11 @@ const LedLine = styled(motion.div)`
   }
 `;
 
-const TypingTitle = () => {
-  const text = "{t('description.title')}";
+const TypingTitle = ({ text }) => {
   const [displayText, setDisplayText] = useState("");
 
   useEffect(() => {
+    if (!text) return;
     let index = 0;
     const interval = setInterval(() => {
       if (index < text.length) {
@@ -101,6 +101,7 @@ const TypingTitle = () => {
 
 const Description = () => {
   const { t } = useTranslation();
+  const titleText = t('description.title');
   return (
     <Section
       id="description"
@@ -109,19 +110,18 @@ const Description = () => {
       transition={{ duration: 0.8 }}
     >
       <TypingTitle />
+      <TypingTitle text={titleText} />
       <Subtitle>
         {t('description.subtitle')}
       </Subtitle>
       <Graphic
         src={graphic}
-        alt="{t('description.alt')}"
+        alt={t('description.alt')}
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       />
-      <Text>
-        {t('description.text')}
-      </Text>
+      <Text>{t('description.text')}</Text>
       <LedLine />
     </Section>
   );
