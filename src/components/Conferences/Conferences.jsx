@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'; // ✅ Se agregó useRef
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import conf1 from '../../assets/conferences/conf1.jpg';
 import conf2 from '../../assets/conferences/conf2.jpg';
 import conf3 from '../../assets/conferences/conf3.jpg';
@@ -115,6 +116,7 @@ const images = [
 const infiniteImages = [...images, ...images];
 
 const Conferences = () => {
+  const { t } = useTranslation();
   const filmStripRef = useRef(null);
   const [flippedIndex, setFlippedIndex] = useState(null);
   const [paused, setPaused] = useState(false);
@@ -160,13 +162,13 @@ const Conferences = () => {
 
   return (
     <Section id="conferences" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
-      <Title>Conferencias y Eventos</Title>
+      <Title>{t('title')}</Title>
       <Text>
-      <p>Compartir conocimiento y experiencias es una de mis pasiones. He participado como speaker en diversas conferencias y eventos donde abordo temas como desarrollo web, UX/UI, cambio de carrera, workshops de I am Remarkable, host de eventos y el impacto de la tecnología en la sociedad.</p>
+      <p>{t('text')}</p>
 
-      <p>A través de mis charlas, busco inspirar, educar y abrir conversaciones sobre tendencias tecnológicas, mejores prácticas, empoderamiento de las mujeres en tecnología y el rol de la innovación en la transformación digital. Mi enfoque es práctico y dinámico, combinando teoría con experiencias reales para conectar con la audiencia.</p>
+      <p>A{t('text1')}</p>
 
-      <p>Siempre estoy abierta a nuevas oportunidades para colaborar, compartir y aprender. Si te interesa invitarme a un evento o conferencia, ¡hablemos! 🚀</p>
+      <p>{t('text2')}</p>
       </Text>
 
       <GalleryWrapper>
