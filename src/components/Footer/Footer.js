@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 
 const FooterContainer = styled.footer`
   background: ${({ theme }) => theme.primaryColor};
@@ -27,9 +28,10 @@ const FooterLinks = styled.div`
 `;
 
 const Footer = () => {
+   const { t } = useTranslation();
   return (
     <FooterContainer>
-      <p>© 2025 Itza Zujuy. Todos los derechos reservados.</p>
+      <p>{t('copy.footer')}</p>
       <FooterLinks>
         <a href="https://www.linkedin.com/in/itza-blanco/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://github.com/Zujuy" target="_blank" rel="noopener noreferrer">GitHub</a>
