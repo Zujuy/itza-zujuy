@@ -21,6 +21,11 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    detection: {
+      order: ['navigator', 'htmlTag'],
+      lookupNavigator: true,
+      caches: [],
+    },
     interpolation: {
       escapeValue: false,
     },
