@@ -1,0 +1,43 @@
+{
+  "description": {
+    "title": "Bem-vindo ao Meu Mundo Digital",
+    "subtitle": "Transformando ideias em experiências digitais por meio da tecnologia e do design.",
+    "text": "Olá! Sou Itza Zujuy, uma entusiasta de tecnologia, segurança e criatividade. 🚀 Sou apaixonada por desenvolver experiências digitais inovadoras e fazer parte de comunidades que promovem o crescimento na tecnologia. Estou sempre explorando novas formas de aprender, compartilhar conhecimento e me conectar com pessoas que querem fazer a diferença. Bem-vind@ ao meu espaço! 💜",
+    "alt": "Representação da minha experiência"
+  },
+  "experience": {
+    "title": "Experiência em Tecnologia",
+    "text": "Minha trajetória na tecnologia combina desenvolvimento web e UX/UI. Sou especializada em JavaScript e TypeScript, criando aplicações dinâmicas com React.js, estilizadas com CSS-in-JS para uma interface fluida e acessível. No backend, trabalho com Node.js e Express, integrando bancos de dados MongoDB e outras soluções NoSQL, garantindo escalabilidade e eficiência."
+  },
+  "conference": {
+    "title": "Conferências e Eventos",
+    "text": "Compartilhar conhecimento e experiências é uma das minhas paixões. Já participei como palestrante em diversas conferências e eventos, abordando temas como desenvolvimento web, UX/UI, transição de carreira, workshops do I Am Remarkable, apresentação de eventos e o impacto da tecnologia na sociedade. Por meio das minhas palestras, busco inspirar, educar e abrir conversas sobre tendências tecnológicas, boas práticas, empoderamento feminino na tecnologia e o papel da inovação na transformação digital. Meu estilo é prático e dinâmico, combinando teoria com experiências reais para me conectar com o público. Estou sempre aberta a novas oportunidades para colaborar, compartilhar e aprender. Se quiser me convidar para um evento ou conferência, vamos conversar! 🚀"
+  },
+  "communities": {
+    "title": "Comunidades",
+    "text": "Acredito profundamente no poder das comunidades para aprender, crescer e gerar impacto. Por isso, participo ativamente de várias comunidades. Sou Chapter Leader no México da Latinas In Tech, e faço parte de iniciativas como I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, entre outras. Contribuo compartilhando conhecimento, mentoria e apoio a outras pessoas no ecossistema de tecnologia—principalmente mulheres. Essas comunidades me permitiram conhecer profissionais incríveis, participar de eventos e reforçar meu compromisso com a inclusão e diversidade na indústria. Se quiser saber mais ou se juntar a alguma dessas comunidades, convido você a fazer parte da mudança! 💜🚀"
+  },
+  "favorites": {
+    "titles": "Minhas Paixões e Mais",
+    "text": "Além da tecnologia, adoro explorar diferentes formas de expressão e movimento. Gosto de escalar, praticar pole dance, ir a shows e tocar violão—sempre buscando novas experiências que me desafiem e inspirem. Também sou apaixonada por criar conteúdo educativo sobre tecnologia. Meu foco não é a monetização, mas sim compartilhar conhecimento e torná-lo acessível para mais pessoas. Para mim, a combinação entre movimento, música e tecnologia é a chave para me manter inspirada 🎶",
+    "tiktok": "Veja meus vídeos no TikTok",
+    "tiktok-des": "Sou criadora de conteúdo no <strong>TikTok</strong>, compartilhando experiências e dicas."
+  },
+  "form": {
+    "title": "Contato",
+    "name": "Nome",
+    "mail": "E-mail",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "cta": "Enviar"
+  },
+  "copy": {
+    "footer": "© 2025 Itza Zujuy. Todos os direitos reservados."
+  },
+  "menu": {
+    "experience": "Experiência",
+    "conference": "Conferências e eventos",
+    "community": "Comunidades",
+    "contact": "Contato"
+  }
+}

@@ -7,8 +7,8 @@ import technolatinasLogo from '../../assets/technolatinas.jpeg';
 import techfemLogo from '../../assets/techfem.png';
 import wowLogo from '../../assets/womenOfWarner.png';
 import woSecLogo from '../../assets/WoSEC.png';
-import tedLogo from '../../assets/ted.jpg';
 import ajolotesLogo from '../../assets/ajolotes.png';
+import LiT from '../../assets/LiT.jpg'
 
 const Section = styled(motion.section)`
   padding: 4rem 2rem;
@@ -97,13 +97,13 @@ const Logo = styled.img`
 `;
 
 const communities = [
+  { name: 'Latinas In Tech', logo: LiT, link: 'https://latinasintech.org/chapter/mexico' },
   { name: 'Women Techmakers', logo: womenTechmakersLogo, link: 'https://www.womentechmakers.com/' },
   { name: 'I Am Remarkable', logo: iamRemarkableLogo, link: 'https://iamremarkable.withgoogle.com/' },
   { name: 'Technolatinas', logo: technolatinasLogo, link: 'https://technolatinas.org/' },
   { name: 'TechFEM', logo: techfemLogo },
   { name: 'Women Of Warner', logo: wowLogo },
   { name: 'WoSEC México', logo: woSecLogo, link: 'https://www.wosecmexico.org/' },
-  { name: 'TEDx', logo: tedLogo, link: 'https://www.ted.com/about/programs-initiatives/tedx-program' },
   { name: 'AWS Ajolotes en la nube', logo: ajolotesLogo, link: 'https://ajolotesenlanube.com/' },
 ];
 
@@ -118,7 +118,7 @@ const Communities = () => {
       <Content>
         <Title>Comunidades</Title>
         <Text>
-          Creo firmemente en el poder de la comunidad para aprender, crecer y crear impacto, por eso, formo parte de iniciativas como I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, entre otras, donde contribuyo compartiendo conocimiento, mentoría y apoyo a más personas dentro del ecosistema tecnológico, principalmente apoyo a mujeres en tecnología.
+          Creo firmemente en el poder de la comunidad para aprender, crecer y crear impacto, por eso participo activamente en varias comunidades, soy Chapter Leader de México para Latinas In Tech,formo parte de iniciativas como I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, entre otras, donde contribuyo compartiendo conocimiento, mentoría y apoyo a más personas dentro del ecosistema tecnológico, principalmente apoyo a mujeres en tecnología.
         </Text>
         <Text>
           Estas comunidades me han permitido conectar con profesionales increíbles, participar en eventos y fortalecer mi compromiso con la inclusión y la diversidad en la industria.

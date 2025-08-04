@@ -1,0 +1,43 @@
+{
+  "description": {
+    "title": "Welcome to My Digital World",
+    "subtitle": "Transforming ideas into digital experiences through technology and design.",
+    "text": "Hi! I'm Itza Zujuy, a tech, security, and creativity enthusiast. 🚀 I'm passionate about developing innovative digital experiences and being part of communities that drive growth in technology. I'm always exploring new ways to learn, share knowledge, and connect with people who want to make a difference. Welcome to my space! 💜",
+    "alt": "Representation of my experience"
+  },
+  "experience": {
+    "title": "Tech Experience",
+    "text": "My path in tech combines web development and UX/UI. I specialize in JavaScript and TypeScript, creating dynamic applications with React.js, styled with CSS-in-JS for a smooth and accessible interface. On the backend, I work with Node.js and Express, integrating MongoDB and other NoSQL databases, ensuring scalability and efficiency."
+  },
+  "conference": {
+    "title": "Conferences & Events",
+    "text": "Sharing knowledge and experiences is one of my passions. I've been a speaker at several conferences and events where I talk about web development, UX/UI, career changes, I Am Remarkable workshops, event hosting, and the impact of technology on society. Through my talks, I aim to inspire, educate, and spark conversations around tech trends, best practices, women empowerment in tech, and the role of innovation in digital transformation. My approach is hands-on and dynamic, combining theory with real-world experience to connect with the audience. I'm always open to new opportunities to collaborate, share, and learn. If you'd like to invite me to an event or conference, let’s talk! 🚀"
+  },
+  "communities": {
+    "title": "Communities",
+    "text": "I truly believe in the power of community to learn, grow, and create impact. That's why I actively participate in various communities. I'm the Chapter Leader for Mexico at Latinas In Tech, and I'm involved in initiatives like I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, among others. I contribute by sharing knowledge, mentoring, and supporting others in the tech ecosystem—especially women in tech. These communities have allowed me to connect with amazing professionals, join events, and strengthen my commitment to inclusion and diversity in the industry. If you want to learn more or join one of these communities, I invite you to be part of the change! 💜🚀"
+  },
+  "favorites": {
+    "titles": "My Passions & More",
+    "text": "Beyond tech, I love exploring different forms of expression and movement. I enjoy climbing, pole dancing, going to concerts, and playing guitar—always seeking new experiences that challenge and inspire me. I'm also passionate about creating educational content about tech. My goal isn't monetization, but rather to share knowledge and make it more accessible. For me, the blend of movement, music, and technology is the key to staying inspired 🎶",
+    "tiktok": "Watch my videos on TikTok",
+    "tiktok-des": "I create content on <strong>TikTok</strong>, sharing experiences and tips."
+  },
+  "form": {
+    "title": "Contact",
+    "name": "Name",
+    "mail": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "cta": "Send"
+  },
+  "copy": {
+    "footer": "© 2025 Itza Zujuy. All rights reserved."
+  },
+  "menu": {
+    "experience": "Experience",
+    "conference": "Conferences & Events",
+    "community": "Communities",
+    "contact": "Contact"
+  }
+}
