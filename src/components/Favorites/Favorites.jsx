@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaGuitar, FaBasketballBall, FaBook, FaTiktok } from 'react-icons/fa';
 import { GiMountainClimbing, GiBallerinaShoes } from 'react-icons/gi';
@@ -116,6 +117,7 @@ const activities = [
 ];
 
 const Favorites = () => {
+  const { t } = useTranslation();
   return (
     <Section
       id="favorites"
@@ -123,7 +125,7 @@ const Favorites = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <Title>Mis Pasiones y Más</Title>
+      <Title>{t('favorites.titles')}</Title>
       <IconGrid>
         {activities.map((activity, index) => (
           <IconWrapper key={index} title={activity.name}>
@@ -132,17 +134,17 @@ const Favorites = () => {
         ))}
       </IconGrid>
       <Text>
-        <p>Más allá de la tecnología, me encanta explorar diferentes formas de expresión y movimiento. Disfruto escalar, practicar pole dance, ir a conciertos y tocar la guitarra, siempre buscando nuevas experiencias que me reten y me inspiren.</p>
+        <p>{t('favorites.text')}</p>
 
-        <p>Además, me apasiona crear contenido educativo sobre tecnología. Mi enfoque no es la monetización, sino compartir conocimiento y hacerlo accesible para más personas.</p>
+        <p>{t('favorites.text1')}</p>
 
-        <p>Para mí, la combinación entre el movimiento, la música y la tecnología es la clave para mantenerme inspirada 🎶</p>
+        <p>{t('favorites.text2')}</p>
       </Text>
       <TikTokLink href="https://www.tiktok.com/@itzazujuy" target="_blank" rel="noopener noreferrer">
-        <FaTiktok /> Ver mis videos en TikTok
+        <FaTiktok /> {t('favorites.tiktok')}
       </TikTokLink>
       <Description>
-        Soy creadora de contenido en <strong>TikTok</strong>, compartiendo experiencias y consejos.
+        {t('favorites.tiktok-des')}
       </Description>
     </Section>
   );
