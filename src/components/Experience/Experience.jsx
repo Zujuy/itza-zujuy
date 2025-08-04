@@ -138,7 +138,7 @@ const Experience = () => {
       <Content>
         <Title>{t('experience.title')}</Title>
         <Text>
-          d{t('experience.text')}
+          {t('experience.text')}
         </Text>
         
         {/* Botón de LinkedIn */}
@@ -150,7 +150,7 @@ const Experience = () => {
           whileTap={{ scale: 0.95 }}
         >
           <FaLinkedin />
-          Ver mi LinkedIn
+          {t('experience.cta')}
         </LinkedInButton>
 
       </Content>

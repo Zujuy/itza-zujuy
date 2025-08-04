@@ -7,7 +7,8 @@
   },
   "experience": {
     "title": "Experiência em Tecnologia",
-    "text": "Minha trajetória na tecnologia combina desenvolvimento web e UX/UI. Sou especializada em JavaScript e TypeScript, criando aplicações dinâmicas com React.js, estilizadas com CSS-in-JS para uma interface fluida e acessível. No backend, trabalho com Node.js e Express, integrando bancos de dados MongoDB e outras soluções NoSQL para garantir escalabilidade e eficiência."
+    "text": "Minha trajetória na tecnologia combina desenvolvimento web e UX/UI. Sou especializada em JavaScript e TypeScript, criando aplicações dinâmicas com React.js, estilizadas com CSS-in-JS para uma interface fluida e acessível. No backend, trabalho com Node.js e Express, integrando bancos de dados MongoDB e outras soluções NoSQL para garantir escalabilidade e eficiência.",
+    "cta":"Ver meu LinkedIn"
   },
   "conference": {
     "title": "Conferências e Eventos",

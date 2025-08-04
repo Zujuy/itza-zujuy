@@ -94,7 +94,7 @@ const TypingTitle = ({ text }) => {
     }, 100);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [text]);
 
   return <Title>{displayText}</Title>;
 };
@@ -102,6 +102,7 @@ const TypingTitle = ({ text }) => {
 const Description = () => {
   const { t } = useTranslation();
   const titleText = t('description.title');
+
   return (
     <Section
       id="description"

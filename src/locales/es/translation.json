@@ -7,7 +7,8 @@
     },
     "experience":{
         "title":"Experiencia Tecnológica",
-        "text":"Mi camino en tecnología combina desarrollo web y UX/UI. Me especializo en JavaScript y TypeScript, creando aplicaciones dinámicas con React.js, estilizadas con CSS-in-JS para una interfaz fluida y accesible. En el backend, manejo Node.js con Express, integrando bases de datos MongoDB y otras soluciones NoSQL, asegurando escalabilidad y eficiencia."
+        "text":"Mi camino en tecnología combina desarrollo web y UX/UI. Me especializo en JavaScript y TypeScript, creando aplicaciones dinámicas con React.js, estilizadas con CSS-in-JS para una interfaz fluida y accesible. En el backend, manejo Node.js con Express, integrando bases de datos MongoDB y otras soluciones NoSQL, asegurando escalabilidad y eficiencia.",
+        "cta":"Ver mi LinkedIn"
     },
     "conference":{
         "title":"Conferencias y Eventos",

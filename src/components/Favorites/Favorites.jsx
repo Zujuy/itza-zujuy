@@ -139,9 +139,7 @@ const Favorites = () => {
       <TikTokLink href="https://www.tiktok.com/@itzazujuy" target="_blank" rel="noopener noreferrer">
         <FaTiktok /> {t('favorites.tiktok')}
       </TikTokLink>
-      <Description>
-        {t('favorites.tiktok-des')}
-      </Description>
+      <Description as="div" dangerouslySetInnerHTML={{ __html: t('favorites.tiktok-des') }} />
     </Section>
   );
 };

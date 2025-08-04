@@ -7,7 +7,8 @@
   },
   "experience": {
     "title": "Tech Experience",
-    "text": "My path in tech combines web development and UX/UI. I specialize in JavaScript and TypeScript, creating dynamic applications with React.js, styled with CSS-in-JS for a smooth and accessible interface. On the backend, I work with Node.js and Express, integrating MongoDB and other NoSQL solutions to ensure scalability and efficiency."
+    "text": "My path in tech combines web development and UX/UI. I specialize in JavaScript and TypeScript, creating dynamic applications with React.js, styled with CSS-in-JS for a smooth and accessible interface. On the backend, I work with Node.js and Express, integrating MongoDB and other NoSQL solutions to ensure scalability and efficiency.",
+    "cta":"My LinkedIn"
   },
   "conference": {
     "title": "Conferences & Events",
