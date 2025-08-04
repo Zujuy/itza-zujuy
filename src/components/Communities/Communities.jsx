@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import womenTechmakersLogo from '../../assets/women-techmakers.jpeg';
 import iamRemarkableLogo from '../../assets/iamremarkable_logo.jpeg';
 import technolatinasLogo from '../../assets/technolatinas.jpeg';
@@ -108,6 +109,7 @@ const communities = [
 ];
 
 const Communities = () => {
+  const { t } = useTranslation();
   return (
     <Section
       id="communities"
@@ -116,15 +118,15 @@ const Communities = () => {
       transition={{ duration: 0.8 }}
     >
       <Content>
-        <Title>Comunidades</Title>
+        <Title>{t('title')}</Title>
         <Text>
-          Creo firmemente en el poder de la comunidad para aprender, crecer y crear impacto, por eso participo activamente en varias comunidades, soy Chapter Leader de México para Latinas In Tech,formo parte de iniciativas como I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, entre otras, donde contribuyo compartiendo conocimiento, mentoría y apoyo a más personas dentro del ecosistema tecnológico, principalmente apoyo a mujeres en tecnología.
+          {t('text')}
         </Text>
         <Text>
-          Estas comunidades me han permitido conectar con profesionales increíbles, participar en eventos y fortalecer mi compromiso con la inclusión y la diversidad en la industria.
+          {t('text1')}
         </Text>
         <Text>
-          Si quieres conocer más o sumarte a alguna de estas comunidades, ¡te invito a ser parte del cambio! 💜🚀
+          {t('text2')}
         </Text>
       </Content>
       <Container>

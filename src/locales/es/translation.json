@@ -11,15 +11,21 @@
     },
     "conference":{
         "title":"Conferencias y Eventos",
-        "text":"Compartir conocimiento y experiencias es una de mis pasiones. He participado como speaker en diversas conferencias y eventos donde abordo temas como desarrollo web, UX/UI, cambio de carrera, workshops de I am Remarkable, host de eventos y el impacto de la tecnología en la sociedad. A través de mis charlas, busco inspirar, educar y abrir conversaciones sobre tendencias tecnológicas, mejores prácticas, empoderamiento de las mujeres en tecnología y el rol de la innovación en la transformación digital. Mi enfoque es práctico y dinámico, combinando teoría con experiencias reales para conectar con la audiencia. Siempre estoy abierta a nuevas oportunidades para colaborar, compartir y aprender. Si te interesa invitarme a un evento o conferencia, ¡hablemos! 🚀"
+        "text":"Compartir conocimiento y experiencias es una de mis pasiones. He participado como speaker en diversas conferencias y eventos donde abordo temas como desarrollo web, UX/UI, cambio de carrera, workshops de I am Remarkable, host de eventos y el impacto de la tecnología en la sociedad.",
+        "text1":"A través de mis charlas, busco inspirar, educar y abrir conversaciones sobre tendencias tecnológicas, mejores prácticas, empoderamiento de las mujeres en tecnología y el rol de la innovación en la transformación digital. Mi enfoque es práctico y dinámico, combinando teoría con experiencias reales para conectar con la audiencia.",
+        "text2":"Siempre estoy abierta a nuevas oportunidades para colaborar, compartir y aprender. Si te interesa invitarme a un evento o conferencia, ¡hablemos! 🚀"
     },
     "communities":{
         "title":"Comunidades",
-        "text":"Creo firmemente en el poder de la comunidad para aprender, crecer y crear impacto, por eso participo activamente en varias comunidades, soy Chapter Leader de México para Latinas In Tech,formo parte de iniciativas como I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, entre otras, donde contribuyo compartiendo conocimiento, mentoría y apoyo a más personas dentro del ecosistema tecnológico, principalmente apoyo a mujeres en tecnología. Estas comunidades me han permitido conectar con profesionales increíbles, participar en eventos y fortalecer mi compromiso con la inclusión y la diversidad en la industria. Si quieres conocer más o sumarte a alguna de estas comunidades, ¡te invito a ser parte del cambio! 💜🚀"
+        "text":"Creo firmemente en el poder de la comunidad para aprender, crecer y crear impacto, por eso participo activamente en varias comunidades, soy Chapter Leader de México para Latinas In Tech,formo parte de iniciativas como I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, entre otras, donde contribuyo compartiendo conocimiento, mentoría y apoyo a más personas dentro del ecosistema tecnológico, principalmente apoyo a mujeres en tecnología.",
+        "text1":"Estas comunidades me han permitido conectar con profesionales increíbles, participar en eventos y fortalecer mi compromiso con la inclusión y la diversidad en la industria.",
+        "text2":"Si quieres conocer más o sumarte a alguna de estas comunidades, ¡te invito a ser parte del cambio! 💜🚀"
     },
     "favorites":{
         "titles":"Mis Pasiones y Más",
-        "text":"Más allá de la tecnología, me encanta explorar diferentes formas de expresión y movimiento. Disfruto escalar, practicar pole dance, ir a conciertos y tocar la guitarra, siempre buscando nuevas experiencias que me reten y me inspiren. Además, me apasiona crear contenido educativo sobre tecnología. Mi enfoque no es la monetización, sino compartir conocimiento y hacerlo accesible para más personas. Para mí, la combinación entre el movimiento, la música y la tecnología es la clave para mantenerme inspirada 🎶",
+        "text":"Más allá de la tecnología, me encanta explorar diferentes formas de expresión y movimiento. Disfruto escalar, practicar pole dance, ir a conciertos y tocar la guitarra, siempre buscando nuevas experiencias que me reten y me inspiren.",
+        "text1":"Además, me apasiona crear contenido educativo sobre tecnología. Mi enfoque no es la monetización, sino compartir conocimiento y hacerlo accesible para más personas.",
+        "text2":"Para mí, la combinación entre el movimiento, la música y la tecnología es la clave para mantenerme inspirada 🎶",
         "tiktok":"Ver mis videos en TikTok",
         "tiktok-des":"Soy creadora de contenido en <strong>TikTok</strong>, compartiendo experiencias y consejos."
     },

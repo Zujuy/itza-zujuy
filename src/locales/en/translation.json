@@ -7,19 +7,25 @@
   },
   "experience": {
     "title": "Tech Experience",
-    "text": "My path in tech combines web development and UX/UI. I specialize in JavaScript and TypeScript, creating dynamic applications with React.js, styled with CSS-in-JS for a smooth and accessible interface. On the backend, I work with Node.js and Express, integrating MongoDB and other NoSQL databases, ensuring scalability and efficiency."
+    "text": "My path in tech combines web development and UX/UI. I specialize in JavaScript and TypeScript, creating dynamic applications with React.js, styled with CSS-in-JS for a smooth and accessible interface. On the backend, I work with Node.js and Express, integrating MongoDB and other NoSQL solutions to ensure scalability and efficiency."
   },
   "conference": {
     "title": "Conferences & Events",
-    "text": "Sharing knowledge and experiences is one of my passions. I've been a speaker at several conferences and events where I talk about web development, UX/UI, career changes, I Am Remarkable workshops, event hosting, and the impact of technology on society. Through my talks, I aim to inspire, educate, and spark conversations around tech trends, best practices, women empowerment in tech, and the role of innovation in digital transformation. My approach is hands-on and dynamic, combining theory with real-world experience to connect with the audience. I'm always open to new opportunities to collaborate, share, and learn. If you'd like to invite me to an event or conference, let’s talk! 🚀"
+    "text": "Sharing knowledge and experiences is one of my passions. I've participated as a speaker in various conferences and events where I talk about web development, UX/UI, career change, I am Remarkable workshops, event hosting, and the impact of technology on society.",
+    "text1": "Through my talks, I aim to inspire, educate, and spark conversations about tech trends, best practices, women empowerment in tech, and the role of innovation in digital transformation. My approach is practical and dynamic, combining theory with real-world experiences to connect with the audience.",
+    "text2": "I'm always open to new opportunities to collaborate, share, and learn. If you're interested in inviting me to an event or conference, let’s talk! 🚀"
   },
   "communities": {
     "title": "Communities",
-    "text": "I truly believe in the power of community to learn, grow, and create impact. That's why I actively participate in various communities. I'm the Chapter Leader for Mexico at Latinas In Tech, and I'm involved in initiatives like I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, among others. I contribute by sharing knowledge, mentoring, and supporting others in the tech ecosystem—especially women in tech. These communities have allowed me to connect with amazing professionals, join events, and strengthen my commitment to inclusion and diversity in the industry. If you want to learn more or join one of these communities, I invite you to be part of the change! 💜🚀"
+    "text": "I firmly believe in the power of community to learn, grow, and create impact. That's why I actively participate in several communities—I'm Chapter Leader for Mexico at Latinas In Tech, and I’m part of initiatives like I Am Remarkable, Women Tech Makers, Technolatinas, Women Of Warner, among others, where I contribute by sharing knowledge, mentoring, and supporting others in the tech ecosystem, mainly women in technology.",
+    "text1": "These communities have allowed me to connect with amazing professionals, attend events, and strengthen my commitment to inclusion and diversity in the industry.",
+    "text2": "If you want to learn more or join any of these communities, I invite you to be part of the change! 💜🚀"
   },
   "favorites": {
     "titles": "My Passions & More",
-    "text": "Beyond tech, I love exploring different forms of expression and movement. I enjoy climbing, pole dancing, going to concerts, and playing guitar—always seeking new experiences that challenge and inspire me. I'm also passionate about creating educational content about tech. My goal isn't monetization, but rather to share knowledge and make it more accessible. For me, the blend of movement, music, and technology is the key to staying inspired 🎶",
+    "text": "Beyond tech, I love exploring different forms of expression and movement. I enjoy climbing, practicing pole dance, going to concerts, and playing guitar—always seeking new experiences that challenge and inspire me.",
+    "text1": "I'm also passionate about creating educational tech content. My goal isn’t monetization, but rather sharing knowledge and making it more accessible.",
+    "text2": "For me, the combination of movement, music, and technology is the key to staying inspired 🎶",
     "tiktok": "Watch my videos on TikTok",
     "tiktok-des": "I create content on <strong>TikTok</strong>, sharing experiences and tips."
   },
