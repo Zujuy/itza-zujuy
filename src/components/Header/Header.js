@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../../assets/logo-itzazujuy-blanco.png';
+import i18n from 'i18n';
 
 const HeaderContainer = styled.header`
   position: sticky;
@@ -141,6 +142,24 @@ const Header = () => {
         <a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => setMenuOpen(false)}>{t('menu.contact')}</a>
         <a href="https://www.linkedin.com/in/itza-blanco/" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>LinkedIn</a>
       </Nav>
+      <select
+        onChange={(e) => i18n.changeLanguage(e.target.value)}
+        defaultValue={i18n.language}
+        style={{
+          background: 'transparent',
+          border: '1px solid white',
+          color: 'white',
+          borderRadius: '4px',
+          padding: '0.25rem 0.5rem',
+          fontSize: '0.9rem',
+          marginLeft: '1rem',
+          cursor: 'pointer'
+        }}
+      >
+      <option value="es">ES</option>
+      <option value="en">EN</option>
+      <option value="pt">PT</option>
+      </select>
     </HeaderContainer>
   );
 };
