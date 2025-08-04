@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../../assets/logo-itzazujuy-blanco.png';
 
@@ -99,6 +100,7 @@ const Nav = styled.nav`
 `;
 
 const Header = () => {
+  const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
 
@@ -133,10 +135,10 @@ const Header = () => {
         {menuOpen ? <FaTimes /> : <FaBars />}
       </MenuIcon>
       <Nav open={menuOpen}>
-        <a href="#experience" className={activeSection === 'experience' ? 'active' : ''} onClick={() => setMenuOpen(false)}>Experiencia</a>
-        <a href="#conferences" className={activeSection === 'conferences' ? 'active' : ''} onClick={() => setMenuOpen(false)}>Conferencias y eventos</a>
-        <a href="#communities" className={activeSection === 'communities' ? 'active' : ''} onClick={() => setMenuOpen(false)}>Comunidades</a>
-        <a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => setMenuOpen(false)}>Contacto</a>
+        <a href="#experience" className={activeSection === 'experience' ? 'active' : ''} onClick={() => setMenuOpen(false)}>{t('menu.experience')}</a>
+        <a href="#conferences" className={activeSection === 'conferences' ? 'active' : ''} onClick={() => setMenuOpen(false)}>{t('menu.conference')}</a>
+        <a href="#communities" className={activeSection === 'communities' ? 'active' : ''} onClick={() => setMenuOpen(false)}>{t('menu.community')}</a>
+        <a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => setMenuOpen(false)}>{t('menu.contact')}</a>
         <a href="https://www.linkedin.com/in/itza-blanco/" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>LinkedIn</a>
       </Nav>
     </HeaderContainer>
